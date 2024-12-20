@@ -1,10 +1,199 @@
-import{_ as r,c,d as s,e as a,b as n,w as l,a as k,r as d,o as g}from"./app-B_7CxFr0.js";const o={};function y(v,i){const t=d("VPIcon"),h=d("CodeTabs");return g(),c("div",null,[i[6]||(i[6]=s("p",null,"主题在代码高亮功能上，进一步支持了更多的特性，它们能够帮助你的代码块更加具备表达力。",-1)),i[7]||(i[7]=s("h2",{id:"代码行号",tabindex:"-1"},[s("a",{class:"header-anchor",href:"#代码行号"},[s("span",null,"代码行号")])],-1)),i[8]||(i[8]=s("p",null,[a("主题默认显示代码行号，它通过 "),s("code",null,"plugins.shiki.line-numbers"),a(" 来控制。")],-1)),n(h,{id:"9",data:[{id:".vuepress/config.ts"}]},{title0:l(({value:e,isActive:p})=>[n(t,{name:"vscode-icons:file-type-typescript"}),i[0]||(i[0]=s("span",null,".vuepress/config.ts",-1))]),tab0:l(({value:e,isActive:p})=>i[1]||(i[1]=[s("div",{class:"language-ts","data-ext":"ts","data-title":"ts"},[s("button",{class:"copy",title:"复制代码","data-copied":"已复制"}),s("pre",{class:"shiki shiki-themes vitesse-light vitesse-dark vp-code"},[s("code",null,[s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}},"export"),s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}}," default"),s("span",{style:{"--shiki-light":"#59873A","--shiki-dark":"#80A665"}}," defineUserConfig"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"({")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"  theme"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": "),s("span",{style:{"--shiki-light":"#59873A","--shiki-dark":"#80A665"}},"plumeTheme"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"({")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"    plugins"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": {")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"      shiki"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": { "),s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"lineNumbers"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": "),s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}},"true"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}}," }")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"    }")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"  })")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"})")])])])],-1)])),_:1}),i[9]||(i[9]=k(`<p>你还可以通过 <code>:line-numbers</code> / <code>:no-line-numbers</code> 来控制当前代码块是否显示代码行号。 还可以通过在 <code>:line-numbers</code> 之后添加 <code>=</code> 来自定义起始行号，例如 <code>:line-numbers=2</code> 表示代码块中的行号从 <code>2</code> 开始。</p><p><strong>输入：</strong></p><div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code"><code><span class="line"><span>\`\`\`ts:line-numbers</span></span>
+import {
+	_ as r,
+	c,
+	d as s,
+	e as a,
+	b as n,
+	w as l,
+	a as k,
+	r as d,
+	o as g,
+} from './app-B_7CxFr0.js'
+const o = {}
+function y(v, i) {
+	const t = d('VPIcon'),
+		h = d('CodeTabs')
+	return (
+		g(),
+		c('div', null, [
+			i[6] ||
+				(i[6] = s(
+					'p',
+					null,
+					'主题在代码高亮功能上，进一步支持了更多的特性，它们能够帮助你的代码块更加具备表达力。',
+					-1
+				)),
+			i[7] ||
+				(i[7] = s(
+					'h2',
+					{ id: '代码行号', tabindex: '-1' },
+					[s('a', { class: 'header-anchor', href: '#代码行号' }, [s('span', null, '代码行号')])],
+					-1
+				)),
+			i[8] ||
+				(i[8] = s(
+					'p',
+					null,
+					[
+						a('主题默认显示代码行号，它通过 '),
+						s('code', null, 'plugins.shiki.line-numbers'),
+						a(' 来控制。'),
+					],
+					-1
+				)),
+			n(
+				h,
+				{ id: '9', data: [{ id: '.vuepress/config.ts' }] },
+				{
+					title0: l(({ value: e, isActive: p }) => [
+						n(t, { name: 'vscode-icons:file-type-typescript' }),
+						i[0] || (i[0] = s('span', null, '.vuepress/config.ts', -1)),
+					]),
+					tab0: l(
+						({ value: e, isActive: p }) =>
+							i[1] ||
+							(i[1] = [
+								s(
+									'div',
+									{ class: 'language-ts', 'data-ext': 'ts', 'data-title': 'ts' },
+									[
+										s('button', { class: 'copy', title: '复制代码', 'data-copied': '已复制' }),
+										s('pre', { class: 'shiki shiki-themes vitesse-light vitesse-dark vp-code' }, [
+											s('code', null, [
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														'export'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														' default'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#59873A', '--shiki-dark': '#80A665' } },
+														' defineUserConfig'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'({'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'  theme'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': '
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#59873A', '--shiki-dark': '#80A665' } },
+														'plumeTheme'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'({'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'    plugins'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': {'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'      shiki'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': { '
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'lineNumbers'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': '
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														'true'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														' }'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'    }'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'  })'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'})'
+													),
+												]),
+											]),
+										]),
+									],
+									-1
+								),
+							])
+					),
+					_: 1,
+				}
+			),
+			i[9] ||
+				(i[9] = k(
+					`<p>你还可以通过 <code>:line-numbers</code> / <code>:no-line-numbers</code> 来控制当前代码块是否显示代码行号。 还可以通过在 <code>:line-numbers</code> 之后添加 <code>=</code> 来自定义起始行号，例如 <code>:line-numbers=2</code> 表示代码块中的行号从 <code>2</code> 开始。</p><p><strong>输入：</strong></p><div class="language- line-numbers-mode" data-ext="" data-title=""><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code"><code><span class="line"><span>\`\`\`ts:line-numbers</span></span>
 <span class="line"><span>// 启用行号</span></span>
 <span class="line"><span>const line2 = &#39;This is line 2&#39;</span></span>
 <span class="line"><span>const line3 = &#39;This is line 3&#39;</span></span>
@@ -165,13 +354,162 @@ import{_ as r,c,d as s,e as a,b as n,w as l,a as k,r as d,o as g}from"./app-B_7C
 <span class="line"><span>\`\`\`</span></span>
 <span class="line"><span>\`\`\`</span></span></code></pre></div><p><strong>输出：</strong></p><div class="language-js" data-ext="js" data-title="js"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code"><code><span class="line"><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676;">function</span><span class="space"> </span><span style="--shiki-light:#59873A;--shiki-dark:#80A665;">foo</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">(</span><span class="space"> </span><span style="--shiki-light:#999999;--shiki-dark:#666666;">)</span><span class="space"> </span><span style="--shiki-light:#999999;--shiki-dark:#666666;">{</span></span>
 <span class="line"><span class="space"> </span><span class="space"> </span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375;">return</span><span class="space"> </span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D;">Hello</span><span class="space"> </span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D;">World</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span class="space"> </span><span class="space"> </span></span>
-<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666;">}</span></span></code></pre></div><p>还可以在 <code>theme.plugins.shiki</code> 中全局启用 <code>whitespace</code> 功能：</p>`,72)),n(h,{id:"194",data:[{id:".vuepress/config.ts"}]},{title0:l(({value:e,isActive:p})=>[n(t,{name:"vscode-icons:file-type-typescript"}),i[2]||(i[2]=s("span",null,".vuepress/config.ts",-1))]),tab0:l(({value:e,isActive:p})=>i[3]||(i[3]=[s("div",{class:"language-ts","data-ext":"ts","data-title":"ts"},[s("button",{class:"copy",title:"复制代码","data-copied":"已复制"}),s("pre",{class:"shiki shiki-themes vitesse-light vitesse-dark vp-code"},[s("code",null,[s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}},"export"),s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}}," default"),s("span",{style:{"--shiki-light":"#59873A","--shiki-dark":"#80A665"}}," defineUserConfig"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"({")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"  theme"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": "),s("span",{style:{"--shiki-light":"#59873A","--shiki-dark":"#80A665"}},"plumeTheme"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"({")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"    plugins"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": {")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"      shiki"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": { "),s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"whitespace"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": "),s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}},"true"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}}," }")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"    }")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"  })")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"})")])])])],-1)])),_:1}),i[10]||(i[10]=k(`<p>全局启用时，可以使用 <code>:no-whitespace</code> 来单独为某一代码块禁用 <code>whitespace</code> 功能。</p><h2 id="折叠代码块" tabindex="-1"><a class="header-anchor" href="#折叠代码块"><span>折叠代码块</span></a></h2><p>有时候，代码块会很长，对于阅读其它部分的内容时，会显得很麻烦，影响阅读体验，这时候可以折叠代码块。</p><p>在 代码块 后面添加 <code>:collapsed-lines</code>，即可折叠代码块，默认从第 15 行开始折叠。</p><p><strong>输入：</strong></p><div class="language-txt" data-ext="txt" data-title="txt"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code"><code><span class="line"><span>\`\`\`css :collapsed-lines</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666;">}</span></span></code></pre></div><p>还可以在 <code>theme.plugins.shiki</code> 中全局启用 <code>whitespace</code> 功能：</p>`,
+					72
+				)),
+			n(
+				h,
+				{ id: '194', data: [{ id: '.vuepress/config.ts' }] },
+				{
+					title0: l(({ value: e, isActive: p }) => [
+						n(t, { name: 'vscode-icons:file-type-typescript' }),
+						i[2] || (i[2] = s('span', null, '.vuepress/config.ts', -1)),
+					]),
+					tab0: l(
+						({ value: e, isActive: p }) =>
+							i[3] ||
+							(i[3] = [
+								s(
+									'div',
+									{ class: 'language-ts', 'data-ext': 'ts', 'data-title': 'ts' },
+									[
+										s('button', { class: 'copy', title: '复制代码', 'data-copied': '已复制' }),
+										s('pre', { class: 'shiki shiki-themes vitesse-light vitesse-dark vp-code' }, [
+											s('code', null, [
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														'export'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														' default'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#59873A', '--shiki-dark': '#80A665' } },
+														' defineUserConfig'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'({'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'  theme'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': '
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#59873A', '--shiki-dark': '#80A665' } },
+														'plumeTheme'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'({'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'    plugins'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': {'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'      shiki'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': { '
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'whitespace'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': '
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														'true'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														' }'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'    }'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'  })'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'})'
+													),
+												]),
+											]),
+										]),
+									],
+									-1
+								),
+							])
+					),
+					_: 1,
+				}
+			),
+			i[10] ||
+				(i[10] = k(
+					`<p>全局启用时，可以使用 <code>:no-whitespace</code> 来单独为某一代码块禁用 <code>whitespace</code> 功能。</p><h2 id="折叠代码块" tabindex="-1"><a class="header-anchor" href="#折叠代码块"><span>折叠代码块</span></a></h2><p>有时候，代码块会很长，对于阅读其它部分的内容时，会显得很麻烦，影响阅读体验，这时候可以折叠代码块。</p><p>在 代码块 后面添加 <code>:collapsed-lines</code>，即可折叠代码块，默认从第 15 行开始折叠。</p><p><strong>输入：</strong></p><div class="language-txt" data-ext="txt" data-title="txt"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code"><code><span class="line"><span>\`\`\`css :collapsed-lines</span></span>
 <span class="line"><span>html {</span></span>
 <span class="line"><span>  margin: 0;</span></span>
 <span class="line"><span>  background: black;</span></span>
@@ -273,10 +611,180 @@ import{_ as r,c,d as s,e as a,b as n,w as l,a as k,r as d,o as g}from"./app-B_7C
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666;">.</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A;">darken</span><span style="--shiki-light:#999999;--shiki-dark:#666666;"> {</span></span>
 <span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965;">  opacity</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">:</span><span style="--shiki-light:#2F798A;--shiki-dark:#4C9A91;"> 0.4</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">;</span></span>
-<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666;">}</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div><div class="collapsed-lines"></div></div><p>还可以在 <code>theme.plugins.shiki</code> 中全局启用 <code>collapsed-lines</code> 功能：</p>`,14)),n(h,{id:"233",data:[{id:".vuepress/config.ts"}]},{title0:l(({value:e,isActive:p})=>[n(t,{name:"vscode-icons:file-type-typescript"}),i[4]||(i[4]=s("span",null,".vuepress/config.ts",-1))]),tab0:l(({value:e,isActive:p})=>i[5]||(i[5]=[s("div",{class:"language-ts","data-ext":"ts","data-title":"ts"},[s("button",{class:"copy",title:"复制代码","data-copied":"已复制"}),s("pre",{class:"shiki shiki-themes vitesse-light vitesse-dark vp-code"},[s("code",null,[s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}},"export"),s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}}," default"),s("span",{style:{"--shiki-light":"#59873A","--shiki-dark":"#80A665"}}," defineUserConfig"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"({")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"  theme"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": "),s("span",{style:{"--shiki-light":"#59873A","--shiki-dark":"#80A665"}},"plumeTheme"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"({")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"    plugins"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": {")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"      shiki"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": { "),s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"collapsedLines"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": "),s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}},"true"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}}," }")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"    }")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"  })")]),a(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"})")])])])],-1)])),_:1}),i[11]||(i[11]=s("p",null,[a("全局启用时，可以使用 "),s("code",null,":no-collapsed-lines"),a(" 来单独为某一代码块禁用 "),s("code",null,"collapsed-lines"),a(" 功能。")],-1))])}const m=r(o,[["render",y],["__file","index.html.vue"]]),b=JSON.parse('{"path":"/guide/code/features/","title":"特性支持","lang":"zh-CN","frontmatter":{"title":"特性支持","author":"pengzhanbo","icon":"majesticons:code-block-line","createTime":"2024/04/04 10:41:28","permalink":"/guide/code/features/","description":"主题在代码高亮功能上，进一步支持了更多的特性，它们能够帮助你的代码块更加具备表达力。 代码行号 主题默认显示代码行号，它通过 plugins.shiki.line-numbers 来控制。 你还可以通过 :line-numbers / :no-line-numbers 来控制当前代码块是否显示代码行号。 还可以通过在 :line-numbers 之后添...","head":[["meta",{"property":"og:url","content":"https://plume.pengzhanbo.cn/guide/code/features/"}],["meta",{"property":"og:site_name","content":"前端"}],["meta",{"property":"og:title","content":"特性支持"}],["meta",{"property":"og:description","content":"主题在代码高亮功能上，进一步支持了更多的特性，它们能够帮助你的代码块更加具备表达力。 代码行号 主题默认显示代码行号，它通过 plugins.shiki.line-numbers 来控制。 你还可以通过 :line-numbers / :no-line-numbers 来控制当前代码块是否显示代码行号。 还可以通过在 :line-numbers 之后添..."}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"zh-CN"}],["meta",{"property":"og:updated_time","content":"2024-12-18T09:08:58.000Z"}],["meta",{"property":"article:author","content":"pengzhanbo"}],["meta",{"property":"article:modified_time","content":"2024-12-18T09:08:58.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"特性支持\\",\\"image\\":[\\"\\"],\\"dateModified\\":\\"2024-12-18T09:08:58.000Z\\",\\"author\\":[{\\"@type\\":\\"Person\\",\\"name\\":\\"pengzhanbo\\"}]}"]]},"headers":[],"readingTime":{"minutes":4.24,"words":1272},"git":{"updatedTime":1734512938000,"contributors":[{"name":"王亚坡","username":"王亚坡","email":"929721152@qq.com","commits":1,"avatar":"https://gravatar.com/avatar/6d7f6e036626c48bd70f6d964494f974b5a02c1fd139d7f4e7d75536f0cf60a0?d=retro"}],"changelog":[{"hash":"b291780c200a860e8b6acb86e50f9f124f17597f","date":1734512938000,"email":"929721152@qq.com","author":"王亚坡","message":"初始化提交","commitUrl":"https://github.com/pengzhanbo/vuepress-theme-plume/commit/b291780c200a860e8b6acb86e50f9f124f17597f"}]},"autoDesc":true,"filePathRelative":"notes/theme/guide/代码/特性支持.md","bulletin":false}');export{m as comp,b as data};
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666;">}</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div><div class="collapsed-lines"></div></div><p>还可以在 <code>theme.plugins.shiki</code> 中全局启用 <code>collapsed-lines</code> 功能：</p>`,
+					14
+				)),
+			n(
+				h,
+				{ id: '233', data: [{ id: '.vuepress/config.ts' }] },
+				{
+					title0: l(({ value: e, isActive: p }) => [
+						n(t, { name: 'vscode-icons:file-type-typescript' }),
+						i[4] || (i[4] = s('span', null, '.vuepress/config.ts', -1)),
+					]),
+					tab0: l(
+						({ value: e, isActive: p }) =>
+							i[5] ||
+							(i[5] = [
+								s(
+									'div',
+									{ class: 'language-ts', 'data-ext': 'ts', 'data-title': 'ts' },
+									[
+										s('button', { class: 'copy', title: '复制代码', 'data-copied': '已复制' }),
+										s('pre', { class: 'shiki shiki-themes vitesse-light vitesse-dark vp-code' }, [
+											s('code', null, [
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														'export'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														' default'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#59873A', '--shiki-dark': '#80A665' } },
+														' defineUserConfig'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'({'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'  theme'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': '
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#59873A', '--shiki-dark': '#80A665' } },
+														'plumeTheme'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'({'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'    plugins'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': {'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'      shiki'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': { '
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'collapsedLines'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': '
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														'true'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														' }'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'    }'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'  })'
+													),
+												]),
+												a(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'})'
+													),
+												]),
+											]),
+										]),
+									],
+									-1
+								),
+							])
+					),
+					_: 1,
+				}
+			),
+			i[11] ||
+				(i[11] = s(
+					'p',
+					null,
+					[
+						a('全局启用时，可以使用 '),
+						s('code', null, ':no-collapsed-lines'),
+						a(' 来单独为某一代码块禁用 '),
+						s('code', null, 'collapsed-lines'),
+						a(' 功能。'),
+					],
+					-1
+				)),
+		])
+	)
+}
+const m = r(o, [
+		['render', y],
+		['__file', 'index.html.vue'],
+	]),
+	b = JSON.parse(
+		'{"path":"/blog/guide/code/features/","title":"特性支持","lang":"zh-CN","frontmatter":{"title":"特性支持","author":"pengzhanbo","icon":"majesticons:code-block-line","createTime":"2024/04/04 10:41:28","permalink":"/blog/guide/code/features/","description":"主题在代码高亮功能上，进一步支持了更多的特性，它们能够帮助你的代码块更加具备表达力。 代码行号 主题默认显示代码行号，它通过 plugins.shiki.line-numbers 来控制。 你还可以通过 :line-numbers / :no-line-numbers 来控制当前代码块是否显示代码行号。 还可以通过在 :line-numbers 之后添...","head":[["meta",{"property":"og:url","content":"https://plume.pengzhanbo.cn/blog/guide/code/features/"}],["meta",{"property":"og:site_name","content":"前端"}],["meta",{"property":"og:title","content":"特性支持"}],["meta",{"property":"og:description","content":"主题在代码高亮功能上，进一步支持了更多的特性，它们能够帮助你的代码块更加具备表达力。 代码行号 主题默认显示代码行号，它通过 plugins.shiki.line-numbers 来控制。 你还可以通过 :line-numbers / :no-line-numbers 来控制当前代码块是否显示代码行号。 还可以通过在 :line-numbers 之后添..."}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"zh-CN"}],["meta",{"property":"og:updated_time","content":"2024-12-18T09:08:58.000Z"}],["meta",{"property":"article:author","content":"pengzhanbo"}],["meta",{"property":"article:modified_time","content":"2024-12-18T09:08:58.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"特性支持\\",\\"image\\":[\\"\\"],\\"dateModified\\":\\"2024-12-18T09:08:58.000Z\\",\\"author\\":[{\\"@type\\":\\"Person\\",\\"name\\":\\"pengzhanbo\\"}]}"]]},"headers":[],"readingTime":{"minutes":4.24,"words":1272},"git":{"updatedTime":1734512938000,"contributors":[{"name":"王亚坡","username":"王亚坡","email":"929721152@qq.com","commits":1,"avatar":"https://gravatar.com/avatar/6d7f6e036626c48bd70f6d964494f974b5a02c1fd139d7f4e7d75536f0cf60a0?d=retro"}],"changelog":[{"hash":"b291780c200a860e8b6acb86e50f9f124f17597f","date":1734512938000,"email":"929721152@qq.com","author":"王亚坡","message":"初始化提交","commitUrl":"https://github.com/pengzhanbo/vuepress-theme-plume/commit/b291780c200a860e8b6acb86e50f9f124f17597f"}]},"autoDesc":true,"filePathRelative":"notes/theme/blog/guide/代码/特性支持.md","bulletin":false}'
+	)
+export { m as comp, b as data }

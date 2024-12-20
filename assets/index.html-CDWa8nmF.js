@@ -1,4 +1,72 @@
-import{_ as h,c as k,a as l,d as i,e as a,b as e,w as p,r as t,o as d}from"./app-B_7CxFr0.js";const r={};function c(g,s){const n=t("RouteLink");return d(),k("div",null,[s[43]||(s[43]=l('<h2 id="基础配置" tabindex="-1"><a class="header-anchor" href="#基础配置"><span>基础配置</span></a></h2><h3 id="configfile" tabindex="-1"><a class="header-anchor" href="#configfile"><span>configFile</span></a></h3><ul><li><p>类型： <code>string</code></p></li><li><p>默认值： <code>&#39;&#39;</code></p></li><li><p>详情：</p><p>自定义主题配置文件的路径。</p><p>查看 <a href="./%E8%AF%B4%E6%98%8E#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">主题配置文件 <code>plume.config.js</code></a> 了解更多。</p></li></ul><h3 id="plugins" tabindex="-1"><a class="header-anchor" href="#plugins"><span>plugins</span></a></h3>',4)),i("ul",null,[s[5]||(s[5]=i("li",null,[i("p",null,[a("类型："),i("code",null,"PlumeThemePluginOptions")])],-1)),s[6]||(s[6]=i("li",null,[i("p",null,[a("默认值： "),i("code",null,"{}")])],-1)),i("li",null,[s[2]||(s[2]=i("p",null,"详情：",-1)),s[3]||(s[3]=i("p",null,"对主题内部使用的插件进行自定义配置。",-1)),i("p",null,[s[1]||(s[1]=a("主题使用的插件默认已进行了配置，大多数情况下您不需要进行修改，如果需要使用到细致的定制化，请查阅 ")),e(n,{to:"/notes/theme/frontend/plugins/"},{default:p(()=>s[0]||(s[0]=[a("此文档")])),_:1})]),s[4]||(s[4]=i("div",{class:"hint-container warning"},[i("p",{class:"hint-container-title"},[a("该字段不支持在 "),i("a",{href:"./%E8%AF%B4%E6%98%8E#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"},[a("主题配置文件 "),i("code",null,"plume.config.js")]),a(" 中进行配置。")])],-1))])]),s[44]||(s[44]=l(`<h3 id="hostname" tabindex="-1"><a class="header-anchor" href="#hostname"><span>hostname</span></a></h3><ul><li><p>类型： <code>string</code></p></li><li><p>默认值： <code>&#39;&#39;</code></p></li><li><p>详情：</p><p>部署站点域名。</p><p>当 <code>hostname</code> 配置为有效域名时，主题将会生成 <code>sitemap</code> 和 <code>seo</code> 相关的内容。</p><div class="hint-container warning"><p class="hint-container-title">该字段不支持在 <a href="./%E8%AF%B4%E6%98%8E#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">主题配置文件 <code>plume.config.js</code></a> 中进行配置。</p></div></li></ul><h3 id="blog" tabindex="-1"><a class="header-anchor" href="#blog"><span>blog</span></a></h3><ul><li><p>类型： <code>false | BlogOptions</code></p></li><li><p>默认值： <code>{ link: &#39;/blog/&#39;, include: [&#39;**/*.md&#39;], exclude: [] }</code></p></li><li><p>详情：</p><p>博客配置。</p></li></ul><div class="language-ts line-numbers-mode" data-ext="ts" data-title="ts"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code"><code><span class="line"><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676;">interface</span><span style="--shiki-light:#2E8F82;--shiki-dark:#5DA994;"> BlogOptions</span><span style="--shiki-light:#999999;--shiki-dark:#666666;"> {</span></span>
+import {
+	_ as h,
+	c as k,
+	a as l,
+	d as i,
+	e as a,
+	b as e,
+	w as p,
+	r as t,
+	o as d,
+} from './app-B_7CxFr0.js'
+const r = {}
+function c(g, s) {
+	const n = t('RouteLink')
+	return (
+		d(),
+		k('div', null, [
+			s[43] ||
+				(s[43] = l(
+					'<h2 id="基础配置" tabindex="-1"><a class="header-anchor" href="#基础配置"><span>基础配置</span></a></h2><h3 id="configfile" tabindex="-1"><a class="header-anchor" href="#configfile"><span>configFile</span></a></h3><ul><li><p>类型： <code>string</code></p></li><li><p>默认值： <code>&#39;&#39;</code></p></li><li><p>详情：</p><p>自定义主题配置文件的路径。</p><p>查看 <a href="./%E8%AF%B4%E6%98%8E#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">主题配置文件 <code>plume.config.js</code></a> 了解更多。</p></li></ul><h3 id="plugins" tabindex="-1"><a class="header-anchor" href="#plugins"><span>plugins</span></a></h3>',
+					4
+				)),
+			i('ul', null, [
+				s[5] ||
+					(s[5] = i(
+						'li',
+						null,
+						[i('p', null, [a('类型：'), i('code', null, 'PlumeThemePluginOptions')])],
+						-1
+					)),
+				s[6] || (s[6] = i('li', null, [i('p', null, [a('默认值： '), i('code', null, '{}')])], -1)),
+				i('li', null, [
+					s[2] || (s[2] = i('p', null, '详情：', -1)),
+					s[3] || (s[3] = i('p', null, '对主题内部使用的插件进行自定义配置。', -1)),
+					i('p', null, [
+						s[1] ||
+							(s[1] = a(
+								'主题使用的插件默认已进行了配置，大多数情况下您不需要进行修改，如果需要使用到细致的定制化，请查阅 '
+							)),
+						e(
+							n,
+							{ to: '/notes/theme/frontend/plugins/' },
+							{ default: p(() => s[0] || (s[0] = [a('此文档')])), _: 1 }
+						),
+					]),
+					s[4] ||
+						(s[4] = i(
+							'div',
+							{ class: 'hint-container warning' },
+							[
+								i('p', { class: 'hint-container-title' }, [
+									a('该字段不支持在 '),
+									i(
+										'a',
+										{
+											href: './%E8%AF%B4%E6%98%8E#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6',
+										},
+										[a('主题配置文件 '), i('code', null, 'plume.config.js')]
+									),
+									a(' 中进行配置。'),
+								]),
+							],
+							-1
+						)),
+				]),
+			]),
+			s[44] ||
+				(s[44] = l(
+					`<h3 id="hostname" tabindex="-1"><a class="header-anchor" href="#hostname"><span>hostname</span></a></h3><ul><li><p>类型： <code>string</code></p></li><li><p>默认值： <code>&#39;&#39;</code></p></li><li><p>详情：</p><p>部署站点域名。</p><p>当 <code>hostname</code> 配置为有效域名时，主题将会生成 <code>sitemap</code> 和 <code>seo</code> 相关的内容。</p><div class="hint-container warning"><p class="hint-container-title">该字段不支持在 <a href="./%E8%AF%B4%E6%98%8E#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">主题配置文件 <code>plume.config.js</code></a> 中进行配置。</p></div></li></ul><h3 id="blog" tabindex="-1"><a class="header-anchor" href="#blog"><span>blog</span></a></h3><ul><li><p>类型： <code>false | BlogOptions</code></p></li><li><p>默认值： <code>{ link: &#39;/blog/&#39;, include: [&#39;**/*.md&#39;], exclude: [] }</code></p></li><li><p>详情：</p><p>博客配置。</p></li></ul><div class="language-ts line-numbers-mode" data-ext="ts" data-title="ts"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code"><code><span class="line"><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676;">interface</span><span style="--shiki-light:#2E8F82;--shiki-dark:#5DA994;"> BlogOptions</span><span style="--shiki-light:#999999;--shiki-dark:#666666;"> {</span></span>
 <span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD;">  /**</span></span>
 <span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD;">   * blog list link</span></span>
 <span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD;">   *</span></span>
@@ -180,7 +248,105 @@ import{_ as h,c as k,a as l,d as i,e as a,b as e,w as p,r as t,o as d}from"./app
 <span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD;">   * { dateStyle: &#39;short&#39;, timeStyle: &#39;short&#39; }</span></span>
 <span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD;">   */</span></span>
 <span class="line"><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A;">  formatOptions</span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676;">?</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">: </span><span style="--shiki-light:#2E8F82;--shiki-dark:#5DA994;">Intl</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">.</span><span style="--shiki-light:#2E8F82;--shiki-dark:#5DA994;">DateTimeFormatOptions</span><span style="--shiki-light:#999999;--shiki-dark:#666666;"> &amp; { </span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A;">forceLocale</span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676;">?</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">: </span><span style="--shiki-light:#2E8F82;--shiki-dark:#5DA994;">boolean</span><span style="--shiki-light:#999999;--shiki-dark:#666666;"> }</span></span>
-<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666;">}</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="hint-container warning"><p class="hint-container-title">该字段不支持在 <a href="./%E8%AF%B4%E6%98%8E#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">主题配置文件 <code>plume.config.js</code></a> 中进行配置。</p></div><h3 id="contributors" tabindex="-1"><a class="header-anchor" href="#contributors"><span>contributors</span></a></h3>`,24)),i("ul",null,[s[11]||(s[11]=i("li",null,[i("p",null,[a("类型： "),i("code",null,"boolean | ContributorsOptions")])],-1)),s[12]||(s[12]=i("li",null,[i("p",null,[a("默认值： "),i("code",null,"true")])],-1)),i("li",null,[s[9]||(s[9]=i("p",null,"详情： 是否显示贡献者",-1)),i("p",null,[s[8]||(s[8]=a("更多配置请参考 ")),e(n,{to:"/notes/theme/guide/%E5%8A%9F%E8%83%BD/%E6%96%87%E7%AB%A0%E8%B4%A1%E7%8C%AE%E8%80%85.html"},{default:p(()=>s[7]||(s[7]=[a("此文档")])),_:1})]),s[10]||(s[10]=i("div",{class:"hint-container warning"},[i("p",{class:"hint-container-title"},[a("该字段不支持在 "),i("a",{href:"./%E8%AF%B4%E6%98%8E#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"},[a("主题配置文件 "),i("code",null,"plume.config.js")]),a(" 中进行配置。")])],-1))])]),s[45]||(s[45]=i("h3",{id:"changelog",tabindex:"-1"},[i("a",{class:"header-anchor",href:"#changelog"},[i("span",null,"changelog")])],-1)),i("ul",null,[s[17]||(s[17]=i("li",null,[i("p",null,[a("类型： "),i("code",null,"boolean | ChangelogOptions")])],-1)),s[18]||(s[18]=i("li",null,[i("p",null,[a("默认值： "),i("code",null,"false")])],-1)),i("li",null,[s[15]||(s[15]=i("p",null,"详情： 是否显示页面变更历史",-1)),i("p",null,[s[14]||(s[14]=a("更多配置请参考 ")),e(n,{to:"/notes/theme/guide/%E5%8A%9F%E8%83%BD/%E6%96%87%E7%AB%A0%E5%8F%98%E6%9B%B4%E5%8E%86%E5%8F%B2.html"},{default:p(()=>s[13]||(s[13]=[a("此文档")])),_:1})]),s[16]||(s[16]=i("div",{class:"hint-container warning"},[i("p",{class:"hint-container-title"},[a("该字段不支持在 "),i("a",{href:"./%E8%AF%B4%E6%98%8E#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"},[a("主题配置文件 "),i("code",null,"plume.config.js")]),a(" 中进行配置。")])],-1))])]),s[46]||(s[46]=l(`<h3 id="locales" tabindex="-1"><a class="header-anchor" href="#locales"><span>locales</span></a></h3><ul><li>类型： <code>Record&lt;string, PlumeThemeLocaleConfig&gt;</code></li><li>默认值： <code>{}</code></li><li>详情： 多语言配置</li></ul><p>不同语言的文本配置，参考 <a href="./%E5%A4%9A%E8%AF%AD%E8%A8%80">此文档</a></p><p>多语言配置支持以下 <a href="#locale-%E9%85%8D%E7%BD%AE">Locale</a> 所有配置选项以控制不同语言下的主题行为。</p><h2 id="locale-配置" tabindex="-1"><a class="header-anchor" href="#locale-配置"><span>Locale 配置</span></a></h2><h3 id="home" tabindex="-1"><a class="header-anchor" href="#home"><span>home</span></a></h3><ul><li>类型： <code>false | string</code></li><li>默认值： <code>/</code></li><li>详情： 首页的路径， 它将被用于： <ul><li>导航栏中 logo的链接；</li><li>404页面的 <em>返回首页</em> 的链接；</li></ul></li></ul><h3 id="logo" tabindex="-1"><a class="header-anchor" href="#logo"><span>logo</span></a></h3><ul><li>类型: <code>false | string</code></li><li>默认值： <code>false</code></li><li>详情： 导航栏中的logo。</li></ul><h3 id="logodark" tabindex="-1"><a class="header-anchor" href="#logodark"><span>logoDark</span></a></h3><ul><li>类型 <code>false | string</code></li><li>默认值： <code>false</code></li><li>详情： Dark模式下，导航栏中的logo。</li></ul><h3 id="appearance" tabindex="-1"><a class="header-anchor" href="#appearance"><span>appearance</span></a></h3><ul><li>类型： <code>boolean | &#39;dark&#39; | &#39;force-dark</code></li><li>默认值： <code>true</code></li></ul><p>是否启用 深色模式。</p><ul><li>如果该选项设置为 <code>true</code>，则默认主题将由用户的首选配色方案决定。</li><li>如果该选项设置为 <code>dark</code>，则默认情况下主题将是深色的，除非用户手动切换它。</li><li>如果该选项设置为 <code>false</code>，用户将无法切换主题。</li><li>如果该选项设置为 <code>force-dark</code>，则用户将无法切换主题，但会强制将主题更改为深色。</li></ul><p>此选项注入一个内联脚本，从本地存储恢复用户设置。这确保在呈现页面之前应用 <code>[data-theme=&quot;dark&quot;]</code> 以避免闪烁。</p><h3 id="profile" tabindex="-1"><a class="header-anchor" href="#profile"><span>profile</span></a></h3><ul><li>类型： <code>ProfileOptions</code></li><li>默认值： <code>{}</code></li><li>详情：配置站点博主的个人信息 <ul><li><code>profile.avatar</code>: 头像地址，用于右侧博主信息展示</li><li><code>profile.name</code>: 名称， 用于右侧博主信息展示</li><li><code>profile.description</code>: 个人描述，用于右侧博主信息展示</li><li><code>profile.circle</code>: 是否为圆形头像</li><li><code>profile.location</code>: 用户地理位置</li><li><code>profile.organization</code>: 用户所在组织/公司</li><li><code>profile.layout</code>: 个人信息展示在左侧还是右侧，<code>&#39;left&#39; | &#39;right&#39;</code></li></ul></li></ul><p>示例：</p><div class="language-ts line-numbers-mode" data-ext="ts" data-title="ts"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code"><code><span class="line"><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375;">export</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375;"> default</span><span style="--shiki-light:#999999;--shiki-dark:#666666;"> {</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666;">}</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="hint-container warning"><p class="hint-container-title">该字段不支持在 <a href="./%E8%AF%B4%E6%98%8E#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">主题配置文件 <code>plume.config.js</code></a> 中进行配置。</p></div><h3 id="contributors" tabindex="-1"><a class="header-anchor" href="#contributors"><span>contributors</span></a></h3>`,
+					24
+				)),
+			i('ul', null, [
+				s[11] ||
+					(s[11] = i(
+						'li',
+						null,
+						[i('p', null, [a('类型： '), i('code', null, 'boolean | ContributorsOptions')])],
+						-1
+					)),
+				s[12] ||
+					(s[12] = i('li', null, [i('p', null, [a('默认值： '), i('code', null, 'true')])], -1)),
+				i('li', null, [
+					s[9] || (s[9] = i('p', null, '详情： 是否显示贡献者', -1)),
+					i('p', null, [
+						s[8] || (s[8] = a('更多配置请参考 ')),
+						e(
+							n,
+							{
+								to: '/notes/theme/blog/guide/%E5%8A%9F%E8%83%BD/%E6%96%87%E7%AB%A0%E8%B4%A1%E7%8C%AE%E8%80%85.html',
+							},
+							{ default: p(() => s[7] || (s[7] = [a('此文档')])), _: 1 }
+						),
+					]),
+					s[10] ||
+						(s[10] = i(
+							'div',
+							{ class: 'hint-container warning' },
+							[
+								i('p', { class: 'hint-container-title' }, [
+									a('该字段不支持在 '),
+									i(
+										'a',
+										{
+											href: './%E8%AF%B4%E6%98%8E#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6',
+										},
+										[a('主题配置文件 '), i('code', null, 'plume.config.js')]
+									),
+									a(' 中进行配置。'),
+								]),
+							],
+							-1
+						)),
+				]),
+			]),
+			s[45] ||
+				(s[45] = i(
+					'h3',
+					{ id: 'changelog', tabindex: '-1' },
+					[i('a', { class: 'header-anchor', href: '#changelog' }, [i('span', null, 'changelog')])],
+					-1
+				)),
+			i('ul', null, [
+				s[17] ||
+					(s[17] = i(
+						'li',
+						null,
+						[i('p', null, [a('类型： '), i('code', null, 'boolean | ChangelogOptions')])],
+						-1
+					)),
+				s[18] ||
+					(s[18] = i('li', null, [i('p', null, [a('默认值： '), i('code', null, 'false')])], -1)),
+				i('li', null, [
+					s[15] || (s[15] = i('p', null, '详情： 是否显示页面变更历史', -1)),
+					i('p', null, [
+						s[14] || (s[14] = a('更多配置请参考 ')),
+						e(
+							n,
+							{
+								to: '/notes/theme/blog/guide/%E5%8A%9F%E8%83%BD/%E6%96%87%E7%AB%A0%E5%8F%98%E6%9B%B4%E5%8E%86%E5%8F%B2.html',
+							},
+							{ default: p(() => s[13] || (s[13] = [a('此文档')])), _: 1 }
+						),
+					]),
+					s[16] ||
+						(s[16] = i(
+							'div',
+							{ class: 'hint-container warning' },
+							[
+								i('p', { class: 'hint-container-title' }, [
+									a('该字段不支持在 '),
+									i(
+										'a',
+										{
+											href: './%E8%AF%B4%E6%98%8E#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6',
+										},
+										[a('主题配置文件 '), i('code', null, 'plume.config.js')]
+									),
+									a(' 中进行配置。'),
+								]),
+							],
+							-1
+						)),
+				]),
+			]),
+			s[46] ||
+				(s[46] = l(
+					`<h3 id="locales" tabindex="-1"><a class="header-anchor" href="#locales"><span>locales</span></a></h3><ul><li>类型： <code>Record&lt;string, PlumeThemeLocaleConfig&gt;</code></li><li>默认值： <code>{}</code></li><li>详情： 多语言配置</li></ul><p>不同语言的文本配置，参考 <a href="./%E5%A4%9A%E8%AF%AD%E8%A8%80">此文档</a></p><p>多语言配置支持以下 <a href="#locale-%E9%85%8D%E7%BD%AE">Locale</a> 所有配置选项以控制不同语言下的主题行为。</p><h2 id="locale-配置" tabindex="-1"><a class="header-anchor" href="#locale-配置"><span>Locale 配置</span></a></h2><h3 id="home" tabindex="-1"><a class="header-anchor" href="#home"><span>home</span></a></h3><ul><li>类型： <code>false | string</code></li><li>默认值： <code>/</code></li><li>详情： 首页的路径， 它将被用于： <ul><li>导航栏中 logo的链接；</li><li>404页面的 <em>返回首页</em> 的链接；</li></ul></li></ul><h3 id="logo" tabindex="-1"><a class="header-anchor" href="#logo"><span>logo</span></a></h3><ul><li>类型: <code>false | string</code></li><li>默认值： <code>false</code></li><li>详情： 导航栏中的logo。</li></ul><h3 id="logodark" tabindex="-1"><a class="header-anchor" href="#logodark"><span>logoDark</span></a></h3><ul><li>类型 <code>false | string</code></li><li>默认值： <code>false</code></li><li>详情： Dark模式下，导航栏中的logo。</li></ul><h3 id="appearance" tabindex="-1"><a class="header-anchor" href="#appearance"><span>appearance</span></a></h3><ul><li>类型： <code>boolean | &#39;dark&#39; | &#39;force-dark</code></li><li>默认值： <code>true</code></li></ul><p>是否启用 深色模式。</p><ul><li>如果该选项设置为 <code>true</code>，则默认主题将由用户的首选配色方案决定。</li><li>如果该选项设置为 <code>dark</code>，则默认情况下主题将是深色的，除非用户手动切换它。</li><li>如果该选项设置为 <code>false</code>，用户将无法切换主题。</li><li>如果该选项设置为 <code>force-dark</code>，则用户将无法切换主题，但会强制将主题更改为深色。</li></ul><p>此选项注入一个内联脚本，从本地存储恢复用户设置。这确保在呈现页面之前应用 <code>[data-theme=&quot;dark&quot;]</code> 以避免闪烁。</p><h3 id="profile" tabindex="-1"><a class="header-anchor" href="#profile"><span>profile</span></a></h3><ul><li>类型： <code>ProfileOptions</code></li><li>默认值： <code>{}</code></li><li>详情：配置站点博主的个人信息 <ul><li><code>profile.avatar</code>: 头像地址，用于右侧博主信息展示</li><li><code>profile.name</code>: 名称， 用于右侧博主信息展示</li><li><code>profile.description</code>: 个人描述，用于右侧博主信息展示</li><li><code>profile.circle</code>: 是否为圆形头像</li><li><code>profile.location</code>: 用户地理位置</li><li><code>profile.organization</code>: 用户所在组织/公司</li><li><code>profile.layout</code>: 个人信息展示在左侧还是右侧，<code>&#39;left&#39; | &#39;right&#39;</code></li></ul></li></ul><p>示例：</p><div class="language-ts line-numbers-mode" data-ext="ts" data-title="ts"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code"><code><span class="line"><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375;">export</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375;"> default</span><span style="--shiki-light:#999999;--shiki-dark:#666666;"> {</span></span>
 <span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965;">  theme</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">: </span><span style="--shiki-light:#59873A;--shiki-dark:#80A665;">plumeTheme</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">({</span></span>
 <span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965;">    profile</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">: {</span></span>
 <span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965;">      avatar</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">: </span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D;">/avatar.jpg</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">,</span></span>
@@ -318,7 +484,89 @@ import{_ as h,c as k,a as l,d as i,e as a,b as e,w as p,r as t,o as d}from"./app
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A;">  rel</span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676;">?</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">: </span><span style="--shiki-light:#2E8F82;--shiki-dark:#5DA994;">string</span></span>
 <span class="line"><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A;">  target</span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676;">?</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">: </span><span style="--shiki-light:#2E8F82;--shiki-dark:#5DA994;">string</span></span>
-<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666;">}</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="aside" tabindex="-1"><a class="header-anchor" href="#aside"><span>aside</span></a></h3>`,37)),i("ul",null,[s[25]||(s[25]=i("li",null,[i("p",null,[a("类型： "),i("code",null,"boolean | 'left'")])],-1)),s[26]||(s[26]=i("li",null,[i("p",null,[a("默认值： "),i("code",null,"true")])],-1)),i("li",null,[s[22]||(s[22]=i("p",null,"详情：",-1)),s[23]||(s[23]=i("p",null,"是否显示侧边栏",-1)),s[24]||(s[24]=i("ul",null,[i("li",null,[i("code",null,"false"),a(" 表示禁用 右侧边栏")]),i("li",null,[i("code",null,"true"),a(" 表示启用 右侧边栏")]),i("li",null,[i("code",null,"'left"),a(" 表示将有侧边栏移动到文章内容左侧，sidebar 右侧")])],-1)),i("p",null,[s[20]||(s[20]=a("每个页面可以通过 ")),e(n,{to:"/notes/theme/frontend/frontmatter/basic.html#aside"},{default:p(()=>s[19]||(s[19]=[a("frontmatter aside")])),_:1}),s[21]||(s[21]=a(" 覆盖层级配置。"))])])]),s[47]||(s[47]=i("h3",{id:"outline",tabindex:"-1"},[i("a",{class:"header-anchor",href:"#outline"},[i("span",null,"outline")])],-1)),i("ul",null,[s[31]||(s[31]=i("li",null,[i("p",null,[a("类型： "),i("code",null,"false | number | [number, number] | 'deep'")])],-1)),s[32]||(s[32]=i("li",null,[i("p",null,[a("默认值： "),i("code",null,"[2, 3]")])],-1)),i("li",null,[s[30]||(s[30]=l('<p>详情：</p><p>要显示的标题级别。</p><p>单个数字表示只显示该级别的标题。</p><p>如果传递的是一个元组，第一个数字是最小级别，第二个数字是最大级别。</p><p><code>&#39;deep&#39;</code> 与 <code>[2, 6]</code> 相同，将显示从 <code>&lt;h2&gt;</code> 到 <code>&lt;h6&gt;</code> 的所有标题。</p><p>当 <a href="#aside">aside</a> 被禁用时，<code>outline</code> 也会被禁用</p>',6)),i("p",null,[s[28]||(s[28]=a("每个页面可以通过 ")),e(n,{to:"/notes/theme/frontend/frontmatter/basic.html#outline"},{default:p(()=>s[27]||(s[27]=[a("frontmatter outline")])),_:1}),s[29]||(s[29]=a(" 覆盖层级配置。"))])])]),s[48]||(s[48]=l(`<h3 id="transition" tabindex="-1"><a class="header-anchor" href="#transition"><span>transition</span></a></h3><ul><li><p>类型： <code>boolean | TransitionOptions</code></p></li><li><p>默认值： <code>true</code></p></li><li><p>详情：</p><p>是否启用过渡动画。</p><p>传入 <code>boolean</code> 类型时，<code>true</code> 代表启用，<code>false</code> 代表禁用。</p><p>也可以传入一个对象，具体配置见下</p><div class="language-ts line-numbers-mode" data-ext="ts" data-title="ts"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code"><code><span class="line"><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676;">interface</span><span style="--shiki-light:#2E8F82;--shiki-dark:#5DA994;"> TransitionOptions</span><span style="--shiki-light:#999999;--shiki-dark:#666666;"> {</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666;">}</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="aside" tabindex="-1"><a class="header-anchor" href="#aside"><span>aside</span></a></h3>`,
+					37
+				)),
+			i('ul', null, [
+				s[25] ||
+					(s[25] = i(
+						'li',
+						null,
+						[i('p', null, [a('类型： '), i('code', null, "boolean | 'left'")])],
+						-1
+					)),
+				s[26] ||
+					(s[26] = i('li', null, [i('p', null, [a('默认值： '), i('code', null, 'true')])], -1)),
+				i('li', null, [
+					s[22] || (s[22] = i('p', null, '详情：', -1)),
+					s[23] || (s[23] = i('p', null, '是否显示侧边栏', -1)),
+					s[24] ||
+						(s[24] = i(
+							'ul',
+							null,
+							[
+								i('li', null, [i('code', null, 'false'), a(' 表示禁用 右侧边栏')]),
+								i('li', null, [i('code', null, 'true'), a(' 表示启用 右侧边栏')]),
+								i('li', null, [
+									i('code', null, "'left"),
+									a(' 表示将有侧边栏移动到文章内容左侧，sidebar 右侧'),
+								]),
+							],
+							-1
+						)),
+					i('p', null, [
+						s[20] || (s[20] = a('每个页面可以通过 ')),
+						e(
+							n,
+							{ to: '/notes/theme/frontend/frontmatter/basic.html#aside' },
+							{ default: p(() => s[19] || (s[19] = [a('frontmatter aside')])), _: 1 }
+						),
+						s[21] || (s[21] = a(' 覆盖层级配置。')),
+					]),
+				]),
+			]),
+			s[47] ||
+				(s[47] = i(
+					'h3',
+					{ id: 'outline', tabindex: '-1' },
+					[i('a', { class: 'header-anchor', href: '#outline' }, [i('span', null, 'outline')])],
+					-1
+				)),
+			i('ul', null, [
+				s[31] ||
+					(s[31] = i(
+						'li',
+						null,
+						[
+							i('p', null, [
+								a('类型： '),
+								i('code', null, "false | number | [number, number] | 'deep'"),
+							]),
+						],
+						-1
+					)),
+				s[32] ||
+					(s[32] = i('li', null, [i('p', null, [a('默认值： '), i('code', null, '[2, 3]')])], -1)),
+				i('li', null, [
+					s[30] ||
+						(s[30] = l(
+							'<p>详情：</p><p>要显示的标题级别。</p><p>单个数字表示只显示该级别的标题。</p><p>如果传递的是一个元组，第一个数字是最小级别，第二个数字是最大级别。</p><p><code>&#39;deep&#39;</code> 与 <code>[2, 6]</code> 相同，将显示从 <code>&lt;h2&gt;</code> 到 <code>&lt;h6&gt;</code> 的所有标题。</p><p>当 <a href="#aside">aside</a> 被禁用时，<code>outline</code> 也会被禁用</p>',
+							6
+						)),
+					i('p', null, [
+						s[28] || (s[28] = a('每个页面可以通过 ')),
+						e(
+							n,
+							{ to: '/notes/theme/frontend/frontmatter/basic.html#outline' },
+							{ default: p(() => s[27] || (s[27] = [a('frontmatter outline')])), _: 1 }
+						),
+						s[29] || (s[29] = a(' 覆盖层级配置。')),
+					]),
+				]),
+			]),
+			s[48] ||
+				(s[48] = l(
+					`<h3 id="transition" tabindex="-1"><a class="header-anchor" href="#transition"><span>transition</span></a></h3><ul><li><p>类型： <code>boolean | TransitionOptions</code></p></li><li><p>默认值： <code>true</code></p></li><li><p>详情：</p><p>是否启用过渡动画。</p><p>传入 <code>boolean</code> 类型时，<code>true</code> 代表启用，<code>false</code> 代表禁用。</p><p>也可以传入一个对象，具体配置见下</p><div class="language-ts line-numbers-mode" data-ext="ts" data-title="ts"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code"><code><span class="line"><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676;">interface</span><span style="--shiki-light:#2E8F82;--shiki-dark:#5DA994;"> TransitionOptions</span><span style="--shiki-light:#999999;--shiki-dark:#666666;"> {</span></span>
 <span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD;">  /**</span></span>
 <span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD;">   * 是否启用 页面间跳转过渡动画</span></span>
 <span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD;">   * </span><span style="--shiki-light:#999999;--shiki-dark:#666666;">@</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375;">default</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A;"> true</span></span>
@@ -335,4 +583,78 @@ import{_ as h,c as k,a as l,d as i,e as a,b as e,w as p,r as t,o as d}from"./app
 <span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD;">   * </span><span style="--shiki-light:#999999;--shiki-dark:#666666;">@</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375;">default</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;"> &#39;</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A;">fade</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span></span>
 <span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD;">   */</span></span>
 <span class="line"><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A;">  appearance</span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676;">?</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">: </span><span style="--shiki-light:#2E8F82;--shiki-dark:#5DA994;">boolean</span><span style="--shiki-light:#999999;--shiki-dark:#666666;"> | </span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D;">fade</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#999999;--shiki-dark:#666666;"> | </span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D;">circle-clip</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#999999;--shiki-dark:#666666;"> | </span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D;">horizontal-clip</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#999999;--shiki-dark:#666666;"> | </span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D;">vertical-clip</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#999999;--shiki-dark:#666666;"> | </span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D;">skew-clip</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span></span>
-<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666;">}</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li></ul><h3 id="footer" tabindex="-1"><a class="header-anchor" href="#footer"><span>footer</span></a></h3><ul><li>类型： <code>false | { message: string; copyright: string }</code></li><li>默认值： <code>false</code></li><li>详情：页脚配置。</li></ul><h3 id="bulletin" tabindex="-1"><a class="header-anchor" href="#bulletin"><span>bulletin</span></a></h3>`,5)),i("ul",null,[s[36]||(s[36]=i("li",null,[i("p",null,[a("类型： "),i("code",null,"boolean | BulletinOptions")])],-1)),s[37]||(s[37]=i("li",null,[i("p",null,[a("默认值： "),i("code",null,"false")])],-1)),i("li",null,[s[35]||(s[35]=i("p",null,"详情： 公告板配置",-1)),i("p",null,[s[34]||(s[34]=a("详情请参考 ")),e(n,{to:"/notes/theme/guide/%E5%8A%9F%E8%83%BD/%E5%85%AC%E5%91%8A%E6%9D%BF.html"},{default:p(()=>s[33]||(s[33]=[a("公告板")])),_:1})])])]),s[49]||(s[49]=l('<h3 id="editlinkpattern" tabindex="-1"><a class="header-anchor" href="#editlinkpattern"><span>editLinkPattern</span></a></h3><ul><li><p>类型： <code>string</code></p></li><li><p>默认值： <code>&#39;&#39;</code></p></li><li><p>详情： 编辑链接的正则表达式</p><p>示例： <code>&#39;:repo/edit/:branch/:path&#39;</code></p></li></ul><h3 id="copyright" tabindex="-1"><a class="header-anchor" href="#copyright"><span>copyright</span></a></h3>',3)),i("ul",null,[s[41]||(s[41]=i("li",null,[i("p",null,[a("类型： "),i("code",null,"boolean | CopyrightLicense | CopyrightOptions")])],-1)),s[42]||(s[42]=i("li",null,[i("p",null,[a("默认值： "),i("code",null,"false")])],-1)),i("li",null,[s[40]||(s[40]=i("p",null,"详情： 版权配置",-1)),i("p",null,[s[39]||(s[39]=a("详情请参考 ")),e(n,{to:"/notes/theme/guide/%E5%8A%9F%E8%83%BD/%E6%96%87%E7%AB%A0%E7%89%88%E6%9D%83%E6%89%80%E6%9C%89.html"},{default:p(()=>s[38]||(s[38]=[a("版权所有")])),_:1})])])]),s[50]||(s[50]=l('<h3 id="prevpage" tabindex="-1"><a class="header-anchor" href="#prevpage"><span>prevPage</span></a></h3><ul><li>类型： <code>boolean</code></li><li>默认值： <code>true</code></li><li>详情： 是否显示上一页</li></ul><h3 id="nextpage" tabindex="-1"><a class="header-anchor" href="#nextpage"><span>nextPage</span></a></h3><ul><li>类型： <code>boolean</code></li><li>默认值： <code>true</code></li><li>详情： 是否显示下一页</li></ul><h3 id="createtime" tabindex="-1"><a class="header-anchor" href="#createtime"><span>createTime</span></a></h3><ul><li><p>类型： <code>boolean | &#39;only-blog&#39;</code></p></li><li><p>默认值： <code>true</code></p></li><li><p>详情： 是否显示创建时间</p><ul><li><code>false</code> - 不显示</li><li><code>&#39;only-blog&#39;</code> - 只显示在博客文章页面</li><li><code>true</code> - 显示在所有文章页面</li></ul></li></ul>',6))])}const D=h(r,[["render",c],["__file","index.html.vue"]]),y=JSON.parse(`{"path":"/frontend/ba/","title":"主题","lang":"zh-CN","frontmatter":{"title":"主题","createTime":"2024/03/02 18:07:03","permalink":"/frontend/ba/","description":"基础配置 configFile 类型： string 默认值： '' 详情： 自定义主题配置文件的路径。 查看 主题配置文件 plume.config.js 了解更多。 plugins 类型：PlumeThemePluginOptions 默认值： {} 详情： 对主题内部使用的插件进行自定义配置。 主题使用的插件默认已进行了配置，大多数情况下您不需要...","head":[["meta",{"property":"og:url","content":"https://plume.pengzhanbo.cn/frontend/ba/"}],["meta",{"property":"og:site_name","content":"前端"}],["meta",{"property":"og:title","content":"主题"}],["meta",{"property":"og:description","content":"基础配置 configFile 类型： string 默认值： '' 详情： 自定义主题配置文件的路径。 查看 主题配置文件 plume.config.js 了解更多。 plugins 类型：PlumeThemePluginOptions 默认值： {} 详情： 对主题内部使用的插件进行自定义配置。 主题使用的插件默认已进行了配置，大多数情况下您不需要..."}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"zh-CN"}],["meta",{"property":"og:updated_time","content":"2024-12-19T03:05:10.000Z"}],["meta",{"property":"article:modified_time","content":"2024-12-19T03:05:10.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"主题\\",\\"image\\":[\\"\\"],\\"dateModified\\":\\"2024-12-19T03:05:10.000Z\\",\\"author\\":[]}"]]},"headers":[],"readingTime":{"minutes":10.64,"words":3191},"git":{"updatedTime":1734577510000,"contributors":[{"name":"王亚坡","username":"王亚坡","email":"929721152@qq.com","commits":2,"avatar":"https://gravatar.com/avatar/6d7f6e036626c48bd70f6d964494f974b5a02c1fd139d7f4e7d75536f0cf60a0?d=retro"}],"changelog":[{"hash":"033db11f0d180af43e6c72b8815a8a9eb12a9413","date":1734577510000,"email":"929721152@qq.com","author":"王亚坡","message":"修改配置","commitUrl":"https://github.com/pengzhanbo/vuepress-theme-plume/commit/033db11f0d180af43e6c72b8815a8a9eb12a9413"},{"hash":"b291780c200a860e8b6acb86e50f9f124f17597f","date":1734512938000,"email":"929721152@qq.com","author":"王亚坡","message":"初始化提交","commitUrl":"https://github.com/pengzhanbo/vuepress-theme-plume/commit/b291780c200a860e8b6acb86e50f9f124f17597f"}]},"autoDesc":true,"filePathRelative":"notes/theme/frontend/主题.md","bulletin":false}`);export{D as comp,y as data};
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666;">}</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li></ul><h3 id="footer" tabindex="-1"><a class="header-anchor" href="#footer"><span>footer</span></a></h3><ul><li>类型： <code>false | { message: string; copyright: string }</code></li><li>默认值： <code>false</code></li><li>详情：页脚配置。</li></ul><h3 id="bulletin" tabindex="-1"><a class="header-anchor" href="#bulletin"><span>bulletin</span></a></h3>`,
+					5
+				)),
+			i('ul', null, [
+				s[36] ||
+					(s[36] = i(
+						'li',
+						null,
+						[i('p', null, [a('类型： '), i('code', null, 'boolean | BulletinOptions')])],
+						-1
+					)),
+				s[37] ||
+					(s[37] = i('li', null, [i('p', null, [a('默认值： '), i('code', null, 'false')])], -1)),
+				i('li', null, [
+					s[35] || (s[35] = i('p', null, '详情： 公告板配置', -1)),
+					i('p', null, [
+						s[34] || (s[34] = a('详情请参考 ')),
+						e(
+							n,
+							{ to: '/notes/theme/blog/guide/%E5%8A%9F%E8%83%BD/%E5%85%AC%E5%91%8A%E6%9D%BF.html' },
+							{ default: p(() => s[33] || (s[33] = [a('公告板')])), _: 1 }
+						),
+					]),
+				]),
+			]),
+			s[49] ||
+				(s[49] = l(
+					'<h3 id="editlinkpattern" tabindex="-1"><a class="header-anchor" href="#editlinkpattern"><span>editLinkPattern</span></a></h3><ul><li><p>类型： <code>string</code></p></li><li><p>默认值： <code>&#39;&#39;</code></p></li><li><p>详情： 编辑链接的正则表达式</p><p>示例： <code>&#39;:repo/edit/:branch/:path&#39;</code></p></li></ul><h3 id="copyright" tabindex="-1"><a class="header-anchor" href="#copyright"><span>copyright</span></a></h3>',
+					3
+				)),
+			i('ul', null, [
+				s[41] ||
+					(s[41] = i(
+						'li',
+						null,
+						[
+							i('p', null, [
+								a('类型： '),
+								i('code', null, 'boolean | CopyrightLicense | CopyrightOptions'),
+							]),
+						],
+						-1
+					)),
+				s[42] ||
+					(s[42] = i('li', null, [i('p', null, [a('默认值： '), i('code', null, 'false')])], -1)),
+				i('li', null, [
+					s[40] || (s[40] = i('p', null, '详情： 版权配置', -1)),
+					i('p', null, [
+						s[39] || (s[39] = a('详情请参考 ')),
+						e(
+							n,
+							{
+								to: '/notes/theme/blog/guide/%E5%8A%9F%E8%83%BD/%E6%96%87%E7%AB%A0%E7%89%88%E6%9D%83%E6%89%80%E6%9C%89.html',
+							},
+							{ default: p(() => s[38] || (s[38] = [a('版权所有')])), _: 1 }
+						),
+					]),
+				]),
+			]),
+			s[50] ||
+				(s[50] = l(
+					'<h3 id="prevpage" tabindex="-1"><a class="header-anchor" href="#prevpage"><span>prevPage</span></a></h3><ul><li>类型： <code>boolean</code></li><li>默认值： <code>true</code></li><li>详情： 是否显示上一页</li></ul><h3 id="nextpage" tabindex="-1"><a class="header-anchor" href="#nextpage"><span>nextPage</span></a></h3><ul><li>类型： <code>boolean</code></li><li>默认值： <code>true</code></li><li>详情： 是否显示下一页</li></ul><h3 id="createtime" tabindex="-1"><a class="header-anchor" href="#createtime"><span>createTime</span></a></h3><ul><li><p>类型： <code>boolean | &#39;only-blog&#39;</code></p></li><li><p>默认值： <code>true</code></p></li><li><p>详情： 是否显示创建时间</p><ul><li><code>false</code> - 不显示</li><li><code>&#39;only-blog&#39;</code> - 只显示在博客文章页面</li><li><code>true</code> - 显示在所有文章页面</li></ul></li></ul>',
+					6
+				)),
+		])
+	)
+}
+const D = h(r, [
+		['render', c],
+		['__file', 'index.html.vue'],
+	]),
+	y = JSON.parse(
+		`{"path":"/frontend/ba/","title":"主题","lang":"zh-CN","frontmatter":{"title":"主题","createTime":"2024/03/02 18:07:03","permalink":"/frontend/ba/","description":"基础配置 configFile 类型： string 默认值： '' 详情： 自定义主题配置文件的路径。 查看 主题配置文件 plume.config.js 了解更多。 plugins 类型：PlumeThemePluginOptions 默认值： {} 详情： 对主题内部使用的插件进行自定义配置。 主题使用的插件默认已进行了配置，大多数情况下您不需要...","head":[["meta",{"property":"og:url","content":"https://plume.pengzhanbo.cn/frontend/ba/"}],["meta",{"property":"og:site_name","content":"前端"}],["meta",{"property":"og:title","content":"主题"}],["meta",{"property":"og:description","content":"基础配置 configFile 类型： string 默认值： '' 详情： 自定义主题配置文件的路径。 查看 主题配置文件 plume.config.js 了解更多。 plugins 类型：PlumeThemePluginOptions 默认值： {} 详情： 对主题内部使用的插件进行自定义配置。 主题使用的插件默认已进行了配置，大多数情况下您不需要..."}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"zh-CN"}],["meta",{"property":"og:updated_time","content":"2024-12-19T03:05:10.000Z"}],["meta",{"property":"article:modified_time","content":"2024-12-19T03:05:10.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"主题\\",\\"image\\":[\\"\\"],\\"dateModified\\":\\"2024-12-19T03:05:10.000Z\\",\\"author\\":[]}"]]},"headers":[],"readingTime":{"minutes":10.64,"words":3191},"git":{"updatedTime":1734577510000,"contributors":[{"name":"王亚坡","username":"王亚坡","email":"929721152@qq.com","commits":2,"avatar":"https://gravatar.com/avatar/6d7f6e036626c48bd70f6d964494f974b5a02c1fd139d7f4e7d75536f0cf60a0?d=retro"}],"changelog":[{"hash":"033db11f0d180af43e6c72b8815a8a9eb12a9413","date":1734577510000,"email":"929721152@qq.com","author":"王亚坡","message":"修改配置","commitUrl":"https://github.com/pengzhanbo/vuepress-theme-plume/commit/033db11f0d180af43e6c72b8815a8a9eb12a9413"},{"hash":"b291780c200a860e8b6acb86e50f9f124f17597f","date":1734512938000,"email":"929721152@qq.com","author":"王亚坡","message":"初始化提交","commitUrl":"https://github.com/pengzhanbo/vuepress-theme-plume/commit/b291780c200a860e8b6acb86e50f9f124f17597f"}]},"autoDesc":true,"filePathRelative":"notes/theme/frontend/主题.md","bulletin":false}`
+	)
+export { D as comp, y as data }

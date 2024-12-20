@@ -1,26 +1,572 @@
-import{_ as d,c as g,a as p,b as n,w as l,r,o as y,d as s,e as i}from"./app-B_7CxFr0.js";const c={};function A(v,a){const k=r("VPIcon"),t=r("CodeTabs");return y(),g("div",null,[a[6]||(a[6]=p('<p>主题提供了两种方式支持 内容搜索。</p><ul><li>本地内容搜索</li><li>Algolia DocSearch</li></ul><p>注意，请勿同时配置使用两种方式，同时配置时，只有 本地内容搜索 生效。</p><h2 id="本地内容搜索" tabindex="-1"><a class="header-anchor" href="#本地内容搜索"><span>本地内容搜索</span></a></h2><p>本地内容搜索由 <a href="https://github.com/pengzhanbo/vuepress-theme-plume/tree/main/plugins/plugin-search" target="_blank" rel="noopener noreferrer">@vuepress-plume/plugin-search</a> 插件提供支持。</p><p>该插件使用 <a href="https://github.com/lucaong/minisearch" target="_blank" rel="noopener noreferrer">minisearch</a> 进行内容搜索。</p><h3 id="启用" tabindex="-1"><a class="header-anchor" href="#启用"><span>启用</span></a></h3><p>主题默认 启用 本地内容搜索 功能。您也可以对其进行自定义配置。</p>',8)),n(t,{id:"33",data:[{id:".vuepress/config.ts"}]},{title0:l(({value:h,isActive:e})=>[n(k,{name:"vscode-icons:file-type-typescript"}),a[0]||(a[0]=s("span",null,".vuepress/config.ts",-1))]),tab0:l(({value:h,isActive:e})=>a[1]||(a[1]=[s("div",{class:"language-ts line-numbers-mode","data-ext":"ts","data-title":"ts"},[s("button",{class:"copy",title:"复制代码","data-copied":"已复制"}),s("pre",{class:"shiki shiki-themes vitesse-light vitesse-dark vp-code"},[s("code",null,[s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}},"import"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}}," {"),s("span",{style:{"--shiki-light":"#B07D48","--shiki-dark":"#BD976A"}}," defineUserConfig"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}}," }"),s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}}," from"),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}}," '"),s("span",{style:{"--shiki-light":"#B56959","--shiki-dark":"#C98A7D"}},"vuepress"),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}},"'")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}},"import"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}}," {"),s("span",{style:{"--shiki-light":"#B07D48","--shiki-dark":"#BD976A"}}," plumeTheme"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}}," }"),s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}}," from"),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}}," '"),s("span",{style:{"--shiki-light":"#B56959","--shiki-dark":"#C98A7D"}},"vuepress-theme-plume"),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}},"'")]),i(`
-`),s("span",{class:"line"}),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}},"export"),s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}}," default"),s("span",{style:{"--shiki-light":"#59873A","--shiki-dark":"#80A665"}}," defineUserConfig"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"({")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"  theme"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": "),s("span",{style:{"--shiki-light":"#59873A","--shiki-dark":"#80A665"}},"plumeTheme"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"({")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"    plugins"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": {")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"      search"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": {")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#A0ADA0","--shiki-dark":"#758575DD"}},"        // more options")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"      }")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"    }")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"  })")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"})")])])]),s("div",{class:"line-numbers","aria-hidden":"true",style:{"counter-reset":"line-number 0"}},[s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"})])],-1)])),_:1}),a[7]||(a[7]=p('<p>该插件会根据你的页面，在本地生成搜索索引，然后在用户访问站点时加载搜索索引文件。 换句话说，这是一个轻量级的内置搜索能力，不会进行任何外部请求。</p><p>然而，当你的站点包含大量页面时，搜索索引文件也会变得非常大，它可能会拖慢你的页面加载速度。 在这种情况下，我们建议你使用更成熟的解决方案 - <a href="#algolia-docsearch">Algolia DocSearch</a> 。</p><h2 id="algolia-docsearch" tabindex="-1"><a class="header-anchor" href="#algolia-docsearch"><span>Algolia DocSearch</span></a></h2><p>使用 <a href="https://docsearch.algolia.com/" target="_blank" rel="noopener noreferrer">Algolia DocSearch</a> 提供支持的网站内容搜索插件</p><h3 id="启用-1" tabindex="-1"><a class="header-anchor" href="#启用-1"><span>启用</span></a></h3>',5)),n(t,{id:"53",data:[{id:".vuepress/config.ts"}]},{title0:l(({value:h,isActive:e})=>[n(k,{name:"vscode-icons:file-type-typescript"}),a[2]||(a[2]=s("span",null,".vuepress/config.ts",-1))]),tab0:l(({value:h,isActive:e})=>a[3]||(a[3]=[s("div",{class:"language-ts line-numbers-mode","data-ext":"ts","data-title":"ts"},[s("button",{class:"copy",title:"复制代码","data-copied":"已复制"}),s("pre",{class:"shiki shiki-themes vitesse-light vitesse-dark vp-code"},[s("code",null,[s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}},"import"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}}," {"),s("span",{style:{"--shiki-light":"#B07D48","--shiki-dark":"#BD976A"}}," defineUserConfig"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}}," }"),s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}}," from"),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}}," '"),s("span",{style:{"--shiki-light":"#B56959","--shiki-dark":"#C98A7D"}},"vuepress"),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}},"'")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}},"import"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}}," {"),s("span",{style:{"--shiki-light":"#B07D48","--shiki-dark":"#BD976A"}}," plumeTheme"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}}," }"),s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}}," from"),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}}," '"),s("span",{style:{"--shiki-light":"#B56959","--shiki-dark":"#C98A7D"}},"vuepress-theme-plume"),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}},"'")]),i(`
-`),s("span",{class:"line"}),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}},"export"),s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}}," default"),s("span",{style:{"--shiki-light":"#59873A","--shiki-dark":"#80A665"}}," defineUserConfig"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"({")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"  theme"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": "),s("span",{style:{"--shiki-light":"#59873A","--shiki-dark":"#80A665"}},"plumeTheme"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"({")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"    plugins"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": {")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"      docsearch"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": {")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#A0ADA0","--shiki-dark":"#758575DD"}},"        // more options")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"      }")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"    }")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"  })")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"})")])])]),s("div",{class:"line-numbers","aria-hidden":"true",style:{"counter-reset":"line-number 0"}},[s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"})])],-1)])),_:1}),a[8]||(a[8]=p(`<h3 id="获取搜索索引" tabindex="-1"><a class="header-anchor" href="#获取搜索索引"><span>获取搜索索引</span></a></h3><p>你需要 <a href="https://docsearch.algolia.com/apply/" target="_blank" rel="noopener noreferrer">提交你的网站 URL</a> 来加入 DocSearch 项目。 当你的索引成功创建后， DocSearch 团队会将 <code>apiKey</code> 和 <code>indexName</code> 发送到你的邮箱。接下来，你就可以配置该插件，在 VuePress 中启用 DocSearch 了。</p><p>或者，你也可以 <a href="https://docsearch.algolia.com/docs/run-your-own/" target="_blank" rel="noopener noreferrer">运行你自己的爬虫</a> 来创建索引， 然后使用你自己的 <code>appId</code> ， <code>apiKey</code> 和 <code>indexName</code> 来配置该插件。</p><p>以下是本主题使用的 爬虫配置示例, 你可以前往 <a href="https://crawler.algolia.com/admin/crawlers/" target="_blank" rel="noopener noreferrer">Algolia Crawler</a> 根据你的需求进行修改:</p><div class="language-ts line-numbers-mode" data-ext="ts" data-title="ts"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark has-highlighted vp-code"><code><span class="line"><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676;">new</span><span style="--shiki-light:#59873A;--shiki-dark:#80A665;"> Crawler</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">({</span></span>
+import {
+	_ as d,
+	c as g,
+	a as p,
+	b as n,
+	w as l,
+	r,
+	o as y,
+	d as s,
+	e as i,
+} from './app-B_7CxFr0.js'
+const c = {}
+function A(v, a) {
+	const k = r('VPIcon'),
+		t = r('CodeTabs')
+	return (
+		y(),
+		g('div', null, [
+			a[6] ||
+				(a[6] = p(
+					'<p>主题提供了两种方式支持 内容搜索。</p><ul><li>本地内容搜索</li><li>Algolia DocSearch</li></ul><p>注意，请勿同时配置使用两种方式，同时配置时，只有 本地内容搜索 生效。</p><h2 id="本地内容搜索" tabindex="-1"><a class="header-anchor" href="#本地内容搜索"><span>本地内容搜索</span></a></h2><p>本地内容搜索由 <a href="https://github.com/pengzhanbo/vuepress-theme-plume/tree/main/plugins/plugin-search" target="_blank" rel="noopener noreferrer">@vuepress-plume/plugin-search</a> 插件提供支持。</p><p>该插件使用 <a href="https://github.com/lucaong/minisearch" target="_blank" rel="noopener noreferrer">minisearch</a> 进行内容搜索。</p><h3 id="启用" tabindex="-1"><a class="header-anchor" href="#启用"><span>启用</span></a></h3><p>主题默认 启用 本地内容搜索 功能。您也可以对其进行自定义配置。</p>',
+					8
+				)),
+			n(
+				t,
+				{ id: '33', data: [{ id: '.vuepress/config.ts' }] },
+				{
+					title0: l(({ value: h, isActive: e }) => [
+						n(k, { name: 'vscode-icons:file-type-typescript' }),
+						a[0] || (a[0] = s('span', null, '.vuepress/config.ts', -1)),
+					]),
+					tab0: l(
+						({ value: h, isActive: e }) =>
+							a[1] ||
+							(a[1] = [
+								s(
+									'div',
+									{ class: 'language-ts line-numbers-mode', 'data-ext': 'ts', 'data-title': 'ts' },
+									[
+										s('button', { class: 'copy', title: '复制代码', 'data-copied': '已复制' }),
+										s('pre', { class: 'shiki shiki-themes vitesse-light vitesse-dark vp-code' }, [
+											s('code', null, [
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														'import'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														' {'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#B07D48', '--shiki-dark': '#BD976A' } },
+														' defineUserConfig'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														' }'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														' from'
+													),
+													s(
+														'span',
+														{
+															style: { '--shiki-light': '#B5695977', '--shiki-dark': '#C98A7D77' },
+														},
+														" '"
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#B56959', '--shiki-dark': '#C98A7D' } },
+														'vuepress'
+													),
+													s(
+														'span',
+														{
+															style: { '--shiki-light': '#B5695977', '--shiki-dark': '#C98A7D77' },
+														},
+														"'"
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														'import'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														' {'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#B07D48', '--shiki-dark': '#BD976A' } },
+														' plumeTheme'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														' }'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														' from'
+													),
+													s(
+														'span',
+														{
+															style: { '--shiki-light': '#B5695977', '--shiki-dark': '#C98A7D77' },
+														},
+														" '"
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#B56959', '--shiki-dark': '#C98A7D' } },
+														'vuepress-theme-plume'
+													),
+													s(
+														'span',
+														{
+															style: { '--shiki-light': '#B5695977', '--shiki-dark': '#C98A7D77' },
+														},
+														"'"
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														'export'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														' default'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#59873A', '--shiki-dark': '#80A665' } },
+														' defineUserConfig'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'({'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'  theme'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': '
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#59873A', '--shiki-dark': '#80A665' } },
+														'plumeTheme'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'({'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'    plugins'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': {'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'      search'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': {'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#A0ADA0', '--shiki-dark': '#758575DD' } },
+														'        // more options'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'      }'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'    }'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'  })'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'})'
+													),
+												]),
+											]),
+										]),
+										s(
+											'div',
+											{
+												class: 'line-numbers',
+												'aria-hidden': 'true',
+												style: { 'counter-reset': 'line-number 0' },
+											},
+											[
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+											]
+										),
+									],
+									-1
+								),
+							])
+					),
+					_: 1,
+				}
+			),
+			a[7] ||
+				(a[7] = p(
+					'<p>该插件会根据你的页面，在本地生成搜索索引，然后在用户访问站点时加载搜索索引文件。 换句话说，这是一个轻量级的内置搜索能力，不会进行任何外部请求。</p><p>然而，当你的站点包含大量页面时，搜索索引文件也会变得非常大，它可能会拖慢你的页面加载速度。 在这种情况下，我们建议你使用更成熟的解决方案 - <a href="#algolia-docsearch">Algolia DocSearch</a> 。</p><h2 id="algolia-docsearch" tabindex="-1"><a class="header-anchor" href="#algolia-docsearch"><span>Algolia DocSearch</span></a></h2><p>使用 <a href="https://docsearch.algolia.com/" target="_blank" rel="noopener noreferrer">Algolia DocSearch</a> 提供支持的网站内容搜索插件</p><h3 id="启用-1" tabindex="-1"><a class="header-anchor" href="#启用-1"><span>启用</span></a></h3>',
+					5
+				)),
+			n(
+				t,
+				{ id: '53', data: [{ id: '.vuepress/config.ts' }] },
+				{
+					title0: l(({ value: h, isActive: e }) => [
+						n(k, { name: 'vscode-icons:file-type-typescript' }),
+						a[2] || (a[2] = s('span', null, '.vuepress/config.ts', -1)),
+					]),
+					tab0: l(
+						({ value: h, isActive: e }) =>
+							a[3] ||
+							(a[3] = [
+								s(
+									'div',
+									{ class: 'language-ts line-numbers-mode', 'data-ext': 'ts', 'data-title': 'ts' },
+									[
+										s('button', { class: 'copy', title: '复制代码', 'data-copied': '已复制' }),
+										s('pre', { class: 'shiki shiki-themes vitesse-light vitesse-dark vp-code' }, [
+											s('code', null, [
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														'import'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														' {'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#B07D48', '--shiki-dark': '#BD976A' } },
+														' defineUserConfig'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														' }'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														' from'
+													),
+													s(
+														'span',
+														{
+															style: { '--shiki-light': '#B5695977', '--shiki-dark': '#C98A7D77' },
+														},
+														" '"
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#B56959', '--shiki-dark': '#C98A7D' } },
+														'vuepress'
+													),
+													s(
+														'span',
+														{
+															style: { '--shiki-light': '#B5695977', '--shiki-dark': '#C98A7D77' },
+														},
+														"'"
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														'import'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														' {'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#B07D48', '--shiki-dark': '#BD976A' } },
+														' plumeTheme'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														' }'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														' from'
+													),
+													s(
+														'span',
+														{
+															style: { '--shiki-light': '#B5695977', '--shiki-dark': '#C98A7D77' },
+														},
+														" '"
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#B56959', '--shiki-dark': '#C98A7D' } },
+														'vuepress-theme-plume'
+													),
+													s(
+														'span',
+														{
+															style: { '--shiki-light': '#B5695977', '--shiki-dark': '#C98A7D77' },
+														},
+														"'"
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														'export'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+														' default'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#59873A', '--shiki-dark': '#80A665' } },
+														' defineUserConfig'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'({'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'  theme'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': '
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#59873A', '--shiki-dark': '#80A665' } },
+														'plumeTheme'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'({'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'    plugins'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': {'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+														'      docsearch'
+													),
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														': {'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#A0ADA0', '--shiki-dark': '#758575DD' } },
+														'        // more options'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'      }'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'    }'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'  })'
+													),
+												]),
+												i(`
+`),
+												s('span', { class: 'line' }, [
+													s(
+														'span',
+														{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+														'})'
+													),
+												]),
+											]),
+										]),
+										s(
+											'div',
+											{
+												class: 'line-numbers',
+												'aria-hidden': 'true',
+												style: { 'counter-reset': 'line-number 0' },
+											},
+											[
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+											]
+										),
+									],
+									-1
+								),
+							])
+					),
+					_: 1,
+				}
+			),
+			a[8] ||
+				(a[8] = p(
+					`<h3 id="获取搜索索引" tabindex="-1"><a class="header-anchor" href="#获取搜索索引"><span>获取搜索索引</span></a></h3><p>你需要 <a href="https://docsearch.algolia.com/apply/" target="_blank" rel="noopener noreferrer">提交你的网站 URL</a> 来加入 DocSearch 项目。 当你的索引成功创建后， DocSearch 团队会将 <code>apiKey</code> 和 <code>indexName</code> 发送到你的邮箱。接下来，你就可以配置该插件，在 VuePress 中启用 DocSearch 了。</p><p>或者，你也可以 <a href="https://docsearch.algolia.com/docs/run-your-own/" target="_blank" rel="noopener noreferrer">运行你自己的爬虫</a> 来创建索引， 然后使用你自己的 <code>appId</code> ， <code>apiKey</code> 和 <code>indexName</code> 来配置该插件。</p><p>以下是本主题使用的 爬虫配置示例, 你可以前往 <a href="https://crawler.algolia.com/admin/crawlers/" target="_blank" rel="noopener noreferrer">Algolia Crawler</a> 根据你的需求进行修改:</p><div class="language-ts line-numbers-mode" data-ext="ts" data-title="ts"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark has-highlighted vp-code"><code><span class="line"><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676;">new</span><span style="--shiki-light:#59873A;--shiki-dark:#80A665;"> Crawler</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">({</span></span>
 <span class="line highlighted"><span style="--shiki-light:#998418;--shiki-dark:#B8A965;">  appId</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">: </span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D;">YOUR_APP_ID</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">, </span></span>
 <span class="line highlighted"><span style="--shiki-light:#998418;--shiki-dark:#B8A965;">  apiKey</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">: </span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D;">YOUR_API_KEY</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">, </span></span>
 <span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965;">  rateLimit</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">: </span><span style="--shiki-light:#2F798A;--shiki-dark:#4C9A91;">8</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">,</span></span>
@@ -148,17 +694,430 @@ import{_ as d,c as g,a as p,b as n,w as l,r,o as y,d as s,e as i}from"./app-B_7C
 <span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965;">      removeWordsIfNoResults</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">: </span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D;">allOptional</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77;">&#39;</span><span style="--shiki-light:#999999;--shiki-dark:#666666;">,</span></span>
 <span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666;">    },</span></span>
 <span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666;">  },</span></span>
-<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666;">})</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><code>recordProps</code> 部分的配置选项用于本主题进行索引的爬取配置。</p><h3 id="配置项" tabindex="-1"><a class="header-anchor" href="#配置项"><span>配置项</span></a></h3><p>完整配置请查看 <a href="https://ecosystem.vuejs.press/zh/plugins/search/docsearch.html" target="_blank" rel="noopener noreferrer">文档</a></p><h3 id="配置示例" tabindex="-1"><a class="header-anchor" href="#配置示例"><span>配置示例</span></a></h3><p>以下是本主题使用的配置：</p>`,10)),n(t,{id:"86",data:[{id:".vuepress/config.ts"}]},{title0:l(({value:h,isActive:e})=>[n(k,{name:"vscode-icons:file-type-typescript"}),a[4]||(a[4]=s("span",null,".vuepress/config.ts",-1))]),tab0:l(({value:h,isActive:e})=>a[5]||(a[5]=[s("div",{class:"language-ts line-numbers-mode","data-ext":"ts","data-title":"ts"},[s("button",{class:"copy",title:"复制代码","data-copied":"已复制"}),s("pre",{class:"shiki shiki-themes vitesse-light vitesse-dark has-highlighted vp-code"},[s("code",null,[s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}},"import"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}}," {"),s("span",{style:{"--shiki-light":"#B07D48","--shiki-dark":"#BD976A"}}," defineUserConfig"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}}," }"),s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}}," from"),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}}," '"),s("span",{style:{"--shiki-light":"#B56959","--shiki-dark":"#C98A7D"}},"vuepress"),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}},"'")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}},"import"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}}," {"),s("span",{style:{"--shiki-light":"#B07D48","--shiki-dark":"#BD976A"}}," plumeTheme"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}}," }"),s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}}," from"),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}}," '"),s("span",{style:{"--shiki-light":"#B56959","--shiki-dark":"#C98A7D"}},"vuepress-theme-plume"),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}},"'")]),i(`
-`),s("span",{class:"line"}),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}},"export"),s("span",{style:{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"}}," default"),s("span",{style:{"--shiki-light":"#59873A","--shiki-dark":"#80A665"}}," defineUserConfig"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"({")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"  theme"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": "),s("span",{style:{"--shiki-light":"#59873A","--shiki-dark":"#80A665"}},"plumeTheme"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"({")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"    plugins"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": {")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"      docsearch"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": {")]),i(`
-`),s("span",{class:"line highlighted"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"        appId"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": "),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}},"'"),s("span",{style:{"--shiki-light":"#B56959","--shiki-dark":"#C98A7D"}},"YOUR_APP_ID"),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}},"'"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},", ")]),i(`
-`),s("span",{class:"line highlighted"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"        apiKey"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": "),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}},"'"),s("span",{style:{"--shiki-light":"#B56959","--shiki-dark":"#C98A7D"}},"YOUR_API_KEY"),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}},"'"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},", ")]),i(`
-`),s("span",{class:"line highlighted"},[s("span",{style:{"--shiki-light":"#998418","--shiki-dark":"#B8A965"}},"        indexName"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},": "),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}},"'"),s("span",{style:{"--shiki-light":"#B56959","--shiki-dark":"#C98A7D"}},"YOUR_INDEX_NAME"),s("span",{style:{"--shiki-light":"#B5695977","--shiki-dark":"#C98A7D77"}},"'"),s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},", ")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"      }")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"    }")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"  })")]),i(`
-`),s("span",{class:"line"},[s("span",{style:{"--shiki-light":"#999999","--shiki-dark":"#666666"}},"})")])])]),s("div",{class:"line-numbers","aria-hidden":"true",style:{"counter-reset":"line-number 0"}},[s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"}),s("div",{class:"line-number"})])],-1)])),_:1})])}const u=d(c,[["render",A],["__file","index.html.vue"]]),D=JSON.parse('{"path":"/guide/features/content-search/","title":"内容搜索","lang":"zh-CN","frontmatter":{"title":"内容搜索","author":"pengzhanbo","icon":"material-symbols:search","createTime":"2024/03/04 09:58:39","permalink":"/guide/features/content-search/","description":"主题提供了两种方式支持 内容搜索。 本地内容搜索 Algolia DocSearch 注意，请勿同时配置使用两种方式，同时配置时，只有 本地内容搜索 生效。 本地内容搜索 本地内容搜索由 @vuepress-plume/plugin-search 插件提供支持。 该插件使用 minisearch 进行内容搜索。 启用 主题默认 启用 本地内容搜索 功能...","head":[["meta",{"property":"og:url","content":"https://plume.pengzhanbo.cn/guide/features/content-search/"}],["meta",{"property":"og:site_name","content":"前端"}],["meta",{"property":"og:title","content":"内容搜索"}],["meta",{"property":"og:description","content":"主题提供了两种方式支持 内容搜索。 本地内容搜索 Algolia DocSearch 注意，请勿同时配置使用两种方式，同时配置时，只有 本地内容搜索 生效。 本地内容搜索 本地内容搜索由 @vuepress-plume/plugin-search 插件提供支持。 该插件使用 minisearch 进行内容搜索。 启用 主题默认 启用 本地内容搜索 功能..."}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"zh-CN"}],["meta",{"property":"og:updated_time","content":"2024-12-18T09:08:58.000Z"}],["meta",{"property":"article:author","content":"pengzhanbo"}],["meta",{"property":"article:modified_time","content":"2024-12-18T09:08:58.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"内容搜索\\",\\"image\\":[\\"\\"],\\"dateModified\\":\\"2024-12-18T09:08:58.000Z\\",\\"author\\":[{\\"@type\\":\\"Person\\",\\"name\\":\\"pengzhanbo\\"}]}"]]},"headers":[],"readingTime":{"minutes":3.55,"words":1066},"git":{"updatedTime":1734512938000,"contributors":[{"name":"王亚坡","username":"王亚坡","email":"929721152@qq.com","commits":1,"avatar":"https://gravatar.com/avatar/6d7f6e036626c48bd70f6d964494f974b5a02c1fd139d7f4e7d75536f0cf60a0?d=retro"}],"changelog":[{"hash":"b291780c200a860e8b6acb86e50f9f124f17597f","date":1734512938000,"email":"929721152@qq.com","author":"王亚坡","message":"初始化提交","commitUrl":"https://github.com/pengzhanbo/vuepress-theme-plume/commit/b291780c200a860e8b6acb86e50f9f124f17597f"}]},"autoDesc":true,"filePathRelative":"notes/theme/guide/功能/内容搜索.md","bulletin":false}');export{u as comp,D as data};
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666;">})</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><code>recordProps</code> 部分的配置选项用于本主题进行索引的爬取配置。</p><h3 id="配置项" tabindex="-1"><a class="header-anchor" href="#配置项"><span>配置项</span></a></h3><p>完整配置请查看 <a href="https://ecosystem.vuejs.press/zh/plugins/search/docsearch.html" target="_blank" rel="noopener noreferrer">文档</a></p><h3 id="配置示例" tabindex="-1"><a class="header-anchor" href="#配置示例"><span>配置示例</span></a></h3><p>以下是本主题使用的配置：</p>`,
+					10
+				)),
+			n(
+				t,
+				{ id: '86', data: [{ id: '.vuepress/config.ts' }] },
+				{
+					title0: l(({ value: h, isActive: e }) => [
+						n(k, { name: 'vscode-icons:file-type-typescript' }),
+						a[4] || (a[4] = s('span', null, '.vuepress/config.ts', -1)),
+					]),
+					tab0: l(
+						({ value: h, isActive: e }) =>
+							a[5] ||
+							(a[5] = [
+								s(
+									'div',
+									{ class: 'language-ts line-numbers-mode', 'data-ext': 'ts', 'data-title': 'ts' },
+									[
+										s('button', { class: 'copy', title: '复制代码', 'data-copied': '已复制' }),
+										s(
+											'pre',
+											{
+												class:
+													'shiki shiki-themes vitesse-light vitesse-dark has-highlighted vp-code',
+											},
+											[
+												s('code', null, [
+													s('span', { class: 'line' }, [
+														s(
+															'span',
+															{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+															'import'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															' {'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#B07D48', '--shiki-dark': '#BD976A' } },
+															' defineUserConfig'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															' }'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+															' from'
+														),
+														s(
+															'span',
+															{
+																style: {
+																	'--shiki-light': '#B5695977',
+																	'--shiki-dark': '#C98A7D77',
+																},
+															},
+															" '"
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#B56959', '--shiki-dark': '#C98A7D' } },
+															'vuepress'
+														),
+														s(
+															'span',
+															{
+																style: {
+																	'--shiki-light': '#B5695977',
+																	'--shiki-dark': '#C98A7D77',
+																},
+															},
+															"'"
+														),
+													]),
+													i(`
+`),
+													s('span', { class: 'line' }, [
+														s(
+															'span',
+															{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+															'import'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															' {'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#B07D48', '--shiki-dark': '#BD976A' } },
+															' plumeTheme'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															' }'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+															' from'
+														),
+														s(
+															'span',
+															{
+																style: {
+																	'--shiki-light': '#B5695977',
+																	'--shiki-dark': '#C98A7D77',
+																},
+															},
+															" '"
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#B56959', '--shiki-dark': '#C98A7D' } },
+															'vuepress-theme-plume'
+														),
+														s(
+															'span',
+															{
+																style: {
+																	'--shiki-light': '#B5695977',
+																	'--shiki-dark': '#C98A7D77',
+																},
+															},
+															"'"
+														),
+													]),
+													i(`
+`),
+													s('span', { class: 'line' }),
+													i(`
+`),
+													s('span', { class: 'line' }, [
+														s(
+															'span',
+															{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+															'export'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#1E754F', '--shiki-dark': '#4D9375' } },
+															' default'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#59873A', '--shiki-dark': '#80A665' } },
+															' defineUserConfig'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															'({'
+														),
+													]),
+													i(`
+`),
+													s('span', { class: 'line' }, [
+														s(
+															'span',
+															{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+															'  theme'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															': '
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#59873A', '--shiki-dark': '#80A665' } },
+															'plumeTheme'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															'({'
+														),
+													]),
+													i(`
+`),
+													s('span', { class: 'line' }, [
+														s(
+															'span',
+															{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+															'    plugins'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															': {'
+														),
+													]),
+													i(`
+`),
+													s('span', { class: 'line' }, [
+														s(
+															'span',
+															{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+															'      docsearch'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															': {'
+														),
+													]),
+													i(`
+`),
+													s('span', { class: 'line highlighted' }, [
+														s(
+															'span',
+															{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+															'        appId'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															': '
+														),
+														s(
+															'span',
+															{
+																style: {
+																	'--shiki-light': '#B5695977',
+																	'--shiki-dark': '#C98A7D77',
+																},
+															},
+															"'"
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#B56959', '--shiki-dark': '#C98A7D' } },
+															'YOUR_APP_ID'
+														),
+														s(
+															'span',
+															{
+																style: {
+																	'--shiki-light': '#B5695977',
+																	'--shiki-dark': '#C98A7D77',
+																},
+															},
+															"'"
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															', '
+														),
+													]),
+													i(`
+`),
+													s('span', { class: 'line highlighted' }, [
+														s(
+															'span',
+															{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+															'        apiKey'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															': '
+														),
+														s(
+															'span',
+															{
+																style: {
+																	'--shiki-light': '#B5695977',
+																	'--shiki-dark': '#C98A7D77',
+																},
+															},
+															"'"
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#B56959', '--shiki-dark': '#C98A7D' } },
+															'YOUR_API_KEY'
+														),
+														s(
+															'span',
+															{
+																style: {
+																	'--shiki-light': '#B5695977',
+																	'--shiki-dark': '#C98A7D77',
+																},
+															},
+															"'"
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															', '
+														),
+													]),
+													i(`
+`),
+													s('span', { class: 'line highlighted' }, [
+														s(
+															'span',
+															{ style: { '--shiki-light': '#998418', '--shiki-dark': '#B8A965' } },
+															'        indexName'
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															': '
+														),
+														s(
+															'span',
+															{
+																style: {
+																	'--shiki-light': '#B5695977',
+																	'--shiki-dark': '#C98A7D77',
+																},
+															},
+															"'"
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#B56959', '--shiki-dark': '#C98A7D' } },
+															'YOUR_INDEX_NAME'
+														),
+														s(
+															'span',
+															{
+																style: {
+																	'--shiki-light': '#B5695977',
+																	'--shiki-dark': '#C98A7D77',
+																},
+															},
+															"'"
+														),
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															', '
+														),
+													]),
+													i(`
+`),
+													s('span', { class: 'line' }, [
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															'      }'
+														),
+													]),
+													i(`
+`),
+													s('span', { class: 'line' }, [
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															'    }'
+														),
+													]),
+													i(`
+`),
+													s('span', { class: 'line' }, [
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															'  })'
+														),
+													]),
+													i(`
+`),
+													s('span', { class: 'line' }, [
+														s(
+															'span',
+															{ style: { '--shiki-light': '#999999', '--shiki-dark': '#666666' } },
+															'})'
+														),
+													]),
+												]),
+											]
+										),
+										s(
+											'div',
+											{
+												class: 'line-numbers',
+												'aria-hidden': 'true',
+												style: { 'counter-reset': 'line-number 0' },
+											},
+											[
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+												s('div', { class: 'line-number' }),
+											]
+										),
+									],
+									-1
+								),
+							])
+					),
+					_: 1,
+				}
+			),
+		])
+	)
+}
+const u = d(c, [
+		['render', A],
+		['__file', 'index.html.vue'],
+	]),
+	D = JSON.parse(
+		'{"path":"/blog/guide/features/content-search/","title":"内容搜索","lang":"zh-CN","frontmatter":{"title":"内容搜索","author":"pengzhanbo","icon":"material-symbols:search","createTime":"2024/03/04 09:58:39","permalink":"/blog/guide/features/content-search/","description":"主题提供了两种方式支持 内容搜索。 本地内容搜索 Algolia DocSearch 注意，请勿同时配置使用两种方式，同时配置时，只有 本地内容搜索 生效。 本地内容搜索 本地内容搜索由 @vuepress-plume/plugin-search 插件提供支持。 该插件使用 minisearch 进行内容搜索。 启用 主题默认 启用 本地内容搜索 功能...","head":[["meta",{"property":"og:url","content":"https://plume.pengzhanbo.cn/blog/guide/features/content-search/"}],["meta",{"property":"og:site_name","content":"前端"}],["meta",{"property":"og:title","content":"内容搜索"}],["meta",{"property":"og:description","content":"主题提供了两种方式支持 内容搜索。 本地内容搜索 Algolia DocSearch 注意，请勿同时配置使用两种方式，同时配置时，只有 本地内容搜索 生效。 本地内容搜索 本地内容搜索由 @vuepress-plume/plugin-search 插件提供支持。 该插件使用 minisearch 进行内容搜索。 启用 主题默认 启用 本地内容搜索 功能..."}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"zh-CN"}],["meta",{"property":"og:updated_time","content":"2024-12-18T09:08:58.000Z"}],["meta",{"property":"article:author","content":"pengzhanbo"}],["meta",{"property":"article:modified_time","content":"2024-12-18T09:08:58.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"内容搜索\\",\\"image\\":[\\"\\"],\\"dateModified\\":\\"2024-12-18T09:08:58.000Z\\",\\"author\\":[{\\"@type\\":\\"Person\\",\\"name\\":\\"pengzhanbo\\"}]}"]]},"headers":[],"readingTime":{"minutes":3.55,"words":1066},"git":{"updatedTime":1734512938000,"contributors":[{"name":"王亚坡","username":"王亚坡","email":"929721152@qq.com","commits":1,"avatar":"https://gravatar.com/avatar/6d7f6e036626c48bd70f6d964494f974b5a02c1fd139d7f4e7d75536f0cf60a0?d=retro"}],"changelog":[{"hash":"b291780c200a860e8b6acb86e50f9f124f17597f","date":1734512938000,"email":"929721152@qq.com","author":"王亚坡","message":"初始化提交","commitUrl":"https://github.com/pengzhanbo/vuepress-theme-plume/commit/b291780c200a860e8b6acb86e50f9f124f17597f"}]},"autoDesc":true,"filePathRelative":"notes/theme/blog/guide/功能/内容搜索.md","bulletin":false}'
+	)
+export { u as comp, D as data }
